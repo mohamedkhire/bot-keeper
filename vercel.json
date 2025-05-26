@@ -1,0 +1,20 @@
+{
+  "cron": [
+    {
+      "path": "/api/warmup",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/worker",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/direct-bot-ping",
+      "schedule": "*/2 * * * *"
+    },
+    {
+      "path": "/api/cron-ping",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
